@@ -376,8 +376,8 @@ margin-bottom: 8px;
     
 }
 .section-customers{
-    padding-bottom: 120px;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 .advantages-list { 
     display: flex;
