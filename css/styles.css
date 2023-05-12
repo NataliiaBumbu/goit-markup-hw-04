@@ -491,8 +491,8 @@ margin-bottom: 16px;
     .social-list-footer {
         display: flex; 
         gap: 16px;
-        width: 40px;
-        height: 40px; 
+        height: 40px;
+        width: 40px; 
     }
    
 .social-footer-link {

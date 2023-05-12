@@ -192,7 +192,9 @@ body {
     background-color: #404BBF;
     color: #FFFFFF;
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
 }
+
 
 /* Sectin Photo */
 .container-section-main {
@@ -247,7 +249,13 @@ body {
 
 
 }
-
+.section-list-portfolio {
+    display: block; 
+}
+.section-list-portfolio:focus,
+.section-list-portfolio:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
 /* Footer */
 .footer-item {
     font-family: var(--font-family-roboto);
@@ -309,8 +317,8 @@ margin-bottom: 16px;
     .social-list-footer {
         display: flex; 
         gap: 16px;
-        width: 40px;
-        height: 40px; 
+        height: 40px;
+        width: 40px; 
     }
    
 .social-footer-link {
@@ -326,5 +334,8 @@ margin-bottom: 16px;
 .social-footer-link:hover,
 .social-footer-link:focus {
     background-color: #31d0aa;; 
+}
+.social-list-icon {
+    fill: #f4f4fd;
 }
 
