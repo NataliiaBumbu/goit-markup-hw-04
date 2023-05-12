@@ -480,7 +480,7 @@ font-family: Roboto;
 
 font-weight: 500;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 
 letter-spacing: 0.02em;
 
@@ -491,11 +491,10 @@ margin-bottom: 16px;
     .social-list-footer {
         display: flex; 
         gap: 16px;
-    }
-    .social-list-footer {
         width: 40px;
         height: 40px; 
     }
+   
 .social-footer-link {
     width: 100%;
     height: 100%;
