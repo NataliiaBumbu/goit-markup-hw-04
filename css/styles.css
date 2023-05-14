@@ -409,7 +409,7 @@ margin-bottom: 8px;
 }
 .customers-list:hover,
 .customers-list:focus{
-    color: #404bbf;
+    background-color: #F4F4FD; 
     border-color: #404bbf;
 }
 .social-list-link:hover,
