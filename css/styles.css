@@ -410,6 +410,7 @@ margin-bottom: 8px;
 .customers-list:focus{
     background-color: #F4F4FD; 
     border-color: #404bbf;
+    color: #404bbf; 
 }
 .social-list-link:hover,
 .social-list-link:focus {
