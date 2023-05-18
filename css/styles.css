@@ -408,7 +408,6 @@ margin-bottom: 8px;
 }
 .customers-list:hover,
 .customers-list:focus{
-    background-color: #F4F4FD; 
     border-color: #404bbf;
     color: #404bbf; 
 }
@@ -425,6 +424,11 @@ margin-bottom: 8px;
 }
 .social-list-icon {
     fill:#f4f4fd;
+}
+.customers-list:hover .customers-list-icon,
+.customers-list:focus .customers-list-icon
+{
+ fill:#404bbf; 
 }
 /* Footer */
 .footer-item {
